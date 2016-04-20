@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DebuggableOwinService", "DebuggableOwinService\DebuggableOwinService.csproj", "{BF7060DA-1288-41EF-94CD-B7A4D2B64ABE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DebuggableOwinServiceSetup", "DebuggableOwinServiceSetup\DebuggableOwinServiceSetup.csproj", "{B787C036-DE2C-4083-8C9E-021F42131F0F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BF7060DA-1288-41EF-94CD-B7A4D2B64ABE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF7060DA-1288-41EF-94CD-B7A4D2B64ABE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF7060DA-1288-41EF-94CD-B7A4D2B64ABE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF7060DA-1288-41EF-94CD-B7A4D2B64ABE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B787C036-DE2C-4083-8C9E-021F42131F0F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B787C036-DE2C-4083-8C9E-021F42131F0F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B787C036-DE2C-4083-8C9E-021F42131F0F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B787C036-DE2C-4083-8C9E-021F42131F0F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

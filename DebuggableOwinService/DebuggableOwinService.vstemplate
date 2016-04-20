@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<VSTemplate Version="3.0.0" Type="Project" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" xmlns:sdk="http://schemas.microsoft.com/developer/vstemplate-sdkextension/2010">
+  <TemplateData>
+    <Name>DebuggableOwinService</Name>
+    <Description>DebuggableOwinService</Description>
+    <Icon>DebuggableOwinService.ico</Icon>
+    <ProjectType>CSharp</ProjectType>
+    <RequiredFrameworkVersion>2.0</RequiredFrameworkVersion>
+    <SortOrder>1000</SortOrder>
+    <TemplateID>ab80b9d3-d402-40a2-8dc7-d89db91ee712</TemplateID>
+    <CreateNewFolder>true</CreateNewFolder>
+    <DefaultName>DebuggableOwinService</DefaultName>
+    <ProvideDefaultName>true</ProvideDefaultName>
+  </TemplateData>
+  <TemplateContent>
+    <Project File="ProjectTemplate.csproj" ReplaceParameters="true">
+      <ProjectItem ReplaceParameters="false" OpenOrder="1" OpenInEditor="true">README.txt</ProjectItem>
+      <ProjectItem ReplaceParameters="true" OpenOrder="2" OpenInEditor="true">ServiceImplementation.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="false">packages.config</ProjectItem>
+      <ProjectItem ReplaceParameters="false">App.config</ProjectItem>
+      <ProjectItem ReplaceParameters="true">SampleController.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true">WebAppStartup.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true">Program.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Framework\ConsoleHarness.cs">ConsoleHarness.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Framework\IWindowsService.cs">IWindowsService.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Framework\TypeExtensions.cs">TypeExtensions.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Framework\WindowsServiceAttribute.cs">WindowsServiceAttribute.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Framework\WindowsServiceHarness.cs">WindowsServiceHarness.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Framework\WindowsServiceHarness.Designer.cs">WindowsServiceHarness.Designer.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Framework\WindowsServiceInstaller.cs">WindowsServiceInstaller.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Framework\WindowsServiceInstaller.Designer.cs">WindowsServiceInstaller.Designer.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Properties\AssemblyInfo.cs">AssemblyInfo.cs</ProjectItem>
+    </Project>
+  </TemplateContent>
+</VSTemplate>
