@@ -1,24 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
-  <Metadata>
-    <Identity Id="DebuggableOwinServiceSetup.RobIII.566cae35-392b-46ca-b16e-ad6575d5ece4" Version="1.0" Language="en-US" Publisher="RobIII" />
-    <DisplayName>DebuggableOwinService</DisplayName>
-    <Description xml:space="preserve">A Self-hosted OWIN Windows Service project template that is easier to run and debug than the default Windows Service project template</Description>
-    <MoreInfo>https://github.com/RobThree/DebuggableOwinSelfInstallingService</MoreInfo>
-    <License>LICENSE.txt</License>
-    <GettingStartedGuide>https://github.com/RobThree/DebuggableOwinSelfInstallingService/blob/master/README.md</GettingStartedGuide>
-    <Icon>DebuggableOwinService.ico</Icon>
-    <PreviewImage>worm-gear-icon.png</PreviewImage>
-  </Metadata>
-  <Installation>
-    <InstallationTarget Version="[12.0,15.0)" Id="Microsoft.VisualStudio.Community" />
-    <InstallationTarget Version="[12.0,15.0)" Id="Microsoft.VisualStudio.Pro" />
-    <InstallationTarget Version="[12.0,15.0)" Id="Microsoft.VisualStudio.Enterprise" />
-  </Installation>
-  <Dependencies>
-    <Dependency Id="Microsoft.Framework.NDP" DisplayName="Microsoft .NET Framework" d:Source="Manual" Version="[4.0,)" />
-  </Dependencies>
-  <Assets>
-    <Asset Type="Microsoft.VisualStudio.ProjectTemplate" d:Source="Project" d:ProjectName="DebuggableOwinService" d:TargetPath="|DebuggableOwinService;TemplateProjectOutputGroup|" Path="ProjectTemplates" d:VsixSubPath="ProjectTemplates" />
-  </Assets>
+    <Metadata>
+        <Identity Id="DebuggableOwinServiceSetup.RobIII.566cae35-392b-46ca-b16e-ad6575d5ece4" Version="1.0" Language="en-US" Publisher="RobIII" />
+        <DisplayName>DebuggableOwinService</DisplayName>
+        <Description xml:space="preserve">A Self-hosted OWIN Windows Service project template that is easier to run and debug than the default Windows Service project template</Description>
+        <MoreInfo>https://github.com/RobThree/DebuggableOwinSelfInstallingService</MoreInfo>
+        <License>LICENSE.txt</License>
+        <GettingStartedGuide>https://github.com/RobThree/DebuggableOwinSelfInstallingService/blob/master/README.md</GettingStartedGuide>
+        <Icon>DebuggableOwinService.ico</Icon>
+        <PreviewImage>worm-gear-icon.png</PreviewImage>
+    </Metadata>
+    <Installation>
+        <InstallationTarget Version="[12.0,)" Id="Microsoft.VisualStudio.Community" />
+        <InstallationTarget Version="[12.0,)" Id="Microsoft.VisualStudio.Pro" />
+        <InstallationTarget Version="[12.0,)" Id="Microsoft.VisualStudio.Enterprise" />
+    </Installation>
+    <Dependencies>
+        <Dependency Id="Microsoft.Framework.NDP" DisplayName="Microsoft .NET Framework" d:Source="Manual" Version="[4.0,)" />
+    </Dependencies>
+    <Assets>
+        <Asset Type="Microsoft.VisualStudio.ProjectTemplate" d:Source="Project" d:ProjectName="DebuggableOwinService" d:TargetPath="|DebuggableOwinService;TemplateProjectOutputGroup|" Path="ProjectTemplates" d:VsixSubPath="ProjectTemplates" />
+    </Assets>
+    <Prerequisites>
+        <Prerequisite Id="Microsoft.VisualStudio.Component.CoreEditor" Version="[16.1.28811.260,17.0)" DisplayName="Visual Studio core editor" />
+    </Prerequisites>
 </PackageManifest>
