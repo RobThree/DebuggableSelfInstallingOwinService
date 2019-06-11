@@ -33,6 +33,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System"/>
+    <Reference Include="System.Configuration" />
     <Reference Include="System.Configuration.Install" />
     $if$ ($targetframeworkversion$ >= 3.5)
     <Reference Include="System.Core"/>
